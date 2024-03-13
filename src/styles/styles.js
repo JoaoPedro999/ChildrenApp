@@ -25,6 +25,14 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
   },
+  singin: {
+    color: "pink",
+    fontWeight: "bold",
+  },
+  login: {
+    color: "lightgray",
+    fontWeight: "bold",
+  },
 });
 
 export default styles;

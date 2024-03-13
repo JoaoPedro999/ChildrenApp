@@ -6,7 +6,7 @@ function LogInComponent() {
   return (
     <View style={styles.Buttons}>
       <TouchableOpacity onPress={() => console.log("Log In Alert")}>
-        <Text>Log In</Text>
+        <Text style={styles.login}>Log In</Text>
       </TouchableOpacity>
     </View>
   );

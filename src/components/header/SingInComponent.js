@@ -6,7 +6,7 @@ function SingInComponent() {
   return (
     <View style={styles.Buttons}>
       <TouchableOpacity onPress={() => console.log("Sing In Alert")}>
-        <Text>Sing In</Text>
+        <Text style={styles.singin}>Sing In</Text>
       </TouchableOpacity>
     </View>
   );
